@@ -1,7 +1,9 @@
 // components/FriendsModals/AddFriendModal.jsx
 import React from 'react';
-import { GlassPanel, GlassButton, GlassInput } from "../ui/GlassMorphic";
 import { X } from 'lucide-react';
+import GlassPanel from '@/Glass/GlassPanel';
+import GlassInput from '@/Glass/GlassInput';
+import GlassButton from '@/Glass/GlassButton';
 
 const AddFriendModal = ({ isOpen, onClose, onSubmit, formData, setFormData }) => {
   const handleInputChange = (e) => {

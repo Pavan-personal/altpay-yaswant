@@ -1,6 +1,7 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/GlassMorphic";
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import GlassPanel from '@/Glass/GlassPanel';
+import GlassButton from '@/Glass/GlassButton';
 
 const Hero = () => {
   return (

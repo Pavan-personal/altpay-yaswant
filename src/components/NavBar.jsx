@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/GlassMorphic";
 import { Menu, X } from 'lucide-react';
 import { Sun, Moon } from 'lucide-react';
+import GlassPanel from '@/Glass/GlassPanel';
+import GlassButton from '@/Glass/GlassButton';
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -76,7 +77,7 @@ const NavBar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'py-3' : 'py-5'
     }`}>
-      <GlassPanel 
+      <GlassPanel
         opacity={isScrolled ? "15" : "10"} 
         className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between"
       >

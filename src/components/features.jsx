@@ -1,10 +1,10 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/GlassMorphic";
 import { CreditCard, Shield, Clock, RefreshCw, Smartphone, Users } from 'lucide-react';
+import { GlassCard } from '@/Glass/GlassCard';
 
 const FeatureCard = ({ icon: Icon, title, description, delay }) => {
   return (
-    <GlassCard 
+    <GlassCard
       className={`p-6 transition-all duration-300 hover:shadow-xl hover:bg-white/30 animate-slide-up`} 
       style={{ animationDelay: `${delay}ms` }}
     >

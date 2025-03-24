@@ -1,10 +1,11 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput} from "./ui/GlassMorphic";
 import { Check, ArrowRight } from 'lucide-react';
 import { useEffect } from 'react';
 import axios from 'axios';
 const BASE_URL = "http://localhost:3000/api";
 import { useNavigate,useSearchParams } from 'react-router-dom';
+import GlassPanel from '@/Glass/GlassPanel';
+import GlassButton from '@/Glass/GlassButton';
 const SignIn = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();

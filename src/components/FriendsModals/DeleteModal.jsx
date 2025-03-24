@@ -1,6 +1,7 @@
 import React from "react";
 import { Trash2 } from "lucide-react";
-import { GlassPanel, GlassButton } from "../ui/GlassMorphic";
+import GlassPanel from "@/Glass/GlassPanel";
+import GlassButton from "@/Glass/GlassButton";
 
 const DeleteConfirmModal = ({ isOpen, friend, onClose, onConfirm }) => {
   if (!isOpen) return null;
