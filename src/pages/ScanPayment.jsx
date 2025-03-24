@@ -5,7 +5,69 @@ import { Button } from '../components/shadcn/button';
 
 import { Check, QrCode, Send, Smartphone, ArrowLeft, X, Camera } from 'lucide-react';
 import toast, { Toaster } from 'react-hot-toast';
-import { GlassButton, GlassInput, GlassPanel } from '../components/ui/GlassMorphic';
+
+const GlassButton = ({
+  children,
+  className,
+  blur = "md",
+  opacity = "20",
+  ...props
+}) => {
+  return (
+    <button
+      className={combineClassNames(
+        `px-6 py-3 rounded-full bg-white/[0.${opacity}] backdrop-blur-${blur} 
+        border border-white/30 shadow-md hover:shadow-lg transition-all
+        duration-300 hover:bg-white/30 active:scale-95`,
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </button>
+  );
+};
+
+const GlassInput = ({
+  className,
+  blur = "md",
+  opacity = "10",
+  ...props
+}) => {
+  return (
+    <input
+      className={combineClassNames(
+        `px-4 py-3 rounded-lg bg-white/[0.${opacity}] backdrop-blur-${blur}
+        border border-white/30 shadow-sm focus:outline-none
+        focus:ring-2 focus:ring-altpay-500/50 focus:border-transparent
+        transition-all duration-300 w-full`,
+        className
+      )}
+      {...props}
+    />
+  );
+};
+
+const GlassPanel = ({
+  children,
+  className,
+  blur = "md",
+  opacity = "10",
+  ...props
+}) => {
+  return (
+    <div
+      className={combineClassNames(
+        `rounded-3xl bg-white/[0.${opacity}] backdrop-blur-${blur}
+        border border-white/20 shadow-xl`,
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </div>
+  );
+};
 
 // Inline implementation of useIsMobile hook
 const useIsMobile = () => {
