@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Process from '../components/Process';
-import SignIn from '../components/signIn';
+import SignIn from '../components/SignIn';
 import Footer from '../components/Footer';
 
 

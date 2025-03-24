@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "../components/ui/glassMorphic";
+import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/glassMorphic";
 import { Check, RefreshCw, Users, Smartphone, ArrowRight } from 'lucide-react';
 
 const Process = () => {
