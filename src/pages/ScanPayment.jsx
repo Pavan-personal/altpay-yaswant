@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Html5Qrcode } from 'html5-qrcode';
 import { Button } from '@/components/shadcn/button';
-import { Input } from '@/components/shadcn/input';
-import { GlassPanel, GlassButton, GlassInput } from '../components/ui/GlassMorphic';
+// import { Input } from '@/components/shadcn/input';
+import { GlassPanel, GlassButton, GlassInput } from '@/components/ui/GlassMorphic';
 import { Check, QrCode, Send, Smartphone, ArrowLeft, X, Camera } from 'lucide-react';
 import toast, { Toaster } from 'react-hot-toast';
 
