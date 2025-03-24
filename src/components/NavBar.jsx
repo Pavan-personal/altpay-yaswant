@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "../components/ui/glassMorphic";
+import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/GlassMorphic";
 import { Menu, X } from 'lucide-react';
 import { Sun, Moon } from 'lucide-react';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/glassMorphic";
+import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/GlassMorphic";
 import { CreditCard, Shield, Clock, RefreshCw, Smartphone, Users } from 'lucide-react';
 
 const FeatureCard = ({ icon: Icon, title, description, delay }) => {

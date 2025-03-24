@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput} from "./ui/glassMorphic";
+import { GlassPanel,GlassButton,GlassCard,GlassInput} from "./ui/GlassMorphic";
 import { Check, ArrowRight } from 'lucide-react';
 import { useEffect } from 'react';
 import axios from 'axios';

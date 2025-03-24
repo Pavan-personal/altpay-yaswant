@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/glassMorphic";
+import { GlassPanel,GlassButton,GlassCard,GlassInput } from "./ui/GlassMorphic";
 import { Facebook, Twitter, Instagram, Linkedin, Send } from 'lucide-react';
 
 const Footer = () => {

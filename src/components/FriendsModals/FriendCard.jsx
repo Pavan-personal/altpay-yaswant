@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GlassCard } from "../ui/glassMorphic";
+import { GlassCard } from "../ui/GlassMorphic";
 import { Edit, Trash2, X } from 'lucide-react';
 
 const FriendCard = ({ friend, onEdit, onDelete }) => {

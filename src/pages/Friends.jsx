@@ -1,6 +1,6 @@
 // FriendsPage.jsx
 import React, { useState, useEffect } from 'react';
-import { GlassPanel, GlassButton, GlassInput } from "../components/ui/glassMorphic";
+import { GlassPanel, GlassButton, GlassInput } from "../components/ui/GlassMorphic";
 import { Plus, Users, Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import DeleteConfirmModal from '../components/FriendsModals/DeleteModal';
