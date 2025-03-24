@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
-import Dashboard from "./pages/Home";
 import Friends from "./pages/Friends";
 import Scan from "./pages/ScanPayment";
 
